@@ -13,6 +13,7 @@ Ce mini-projet vise principalement à évaluer les compétences en POO (programm
 ### Objectifs d'apprentissage
 
 - Comprendre les bases de la programmation orientée objet.
+- Concevoir et écrire des requêtes SQL efficaces qui permettent d'extraire précisément les données.
 - Appliquer le principe de couplage faible.
 - Développer du code réutilisable.
 - Comprendre et utiliser l'injection de dépendances.
@@ -153,6 +154,10 @@ RepositoryMutations est inspiré de `CrudRepository` de Spring Boot.
 # Architecture
 
 Le système est basé sur le principe **MVC2**, avec un **router dispatcher** qui analyse les URLs et appelle dynamiquement la méthode du contrôleur correspondante (comme un dispatcher servlet).
+
+# Pour tester sur Postman
+
+[Collection Postman](https://www.postman.com/simplon-devs/youcode-fil-rouge-a1/collection/9x2u8lq/youcode-fil-rouge-rattrapage)
 
 # Recommandations
 
